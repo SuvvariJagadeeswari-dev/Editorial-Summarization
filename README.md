@@ -19,6 +19,12 @@ Pre-trained on large datasets → fine-tuned on our domain-specific editorial da
 During fine-tuning, it learns from pairs of articles and their summaries.
 The model generates a short, clear summary using its learned patterns.
 
+# Innovation
+Focus on Editorials:  We specifically targeted editorial articles,this is especially helpful for government exam aspirants, who regularly read editorials for current affairs and critical analysis.
+
+Fine-Tuned for Better Performance:  By training the T5 model on our custom editorial dataset, we achieved better results than using general pretrained models.
+
+For Example:  Generic tools like ChatGPT are limited in handling multiple or large images at once. But our system can process many editorial images efficiently.
 # Conclusion
   In this project, we worked on summarizing editorials from The Hindu newspaper using a fine-tuned T5 model.  Unlike general pretrained models, our approach involved creating a manual, domain-specific dataset, resulting  in more accurate summaries.We used OCR to get text from images and cleaned the text before giving it to the model. This made our summaries more accurate and useful, especially for students and people preparing for government exams.
 
